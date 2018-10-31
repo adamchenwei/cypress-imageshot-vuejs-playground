@@ -3,10 +3,11 @@ describe('Chewy Home', function () {
     cy.visit('http://localhost:8081');
     cy.title().should(
       'equal',
-      'Pet Food, Products, Supplies at Low Prices - Free Shipping | Chewy.com'
+      'cypress-imageshot-vuejs-playground'
     );
     // cy.get('.cw-promo-ticket').contains('Save 30%').matchImageSnapshot();
-    //cy.get('.cw-promo-ticket');
+    cy.get('[data-cy=main-text-with-link]')
+      .matchImageSnapshot();
   });
 
 //   context('Querying', function () {
