@@ -24,3 +24,9 @@ yarn run test
 ```
 yarn run lint
 ```
+
+### e2e Testing (Cypress)
+```
+yarn test:e2e
+yarn test:dashboard
+```
