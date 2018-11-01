@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:e2e": "./node_modules/.bin/cypress open"
+    "test:e2e": "./node_modules/.bin/cypress open",
+    "test:dashboard": "./node_modules/.bin/cypress run --record --key 9fa99101-885b-486d-937a-44306308c46d"
   },
   "dependencies": {
     "vue": "^2.5.17",
