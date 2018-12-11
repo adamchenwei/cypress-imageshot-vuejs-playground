@@ -1,5 +1,7 @@
 # cypress-imageshot-vuejs-playground
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adamchenwei/cypress-imageshot-vuejs-playground.svg)](https://greenkeeper.io/)
+
 ## Project setup
 ```
 yarn install
