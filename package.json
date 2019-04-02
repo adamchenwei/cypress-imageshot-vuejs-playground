@@ -6,9 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:e2e": "./node_modules/.bin/cypress open ",
+    "test:visual": "./node_modules/.bin/cypress open ",
     "test:update-snapshot": "./node_modules/.bin/cypress run --env updateSnapshots=true",
-    "test:run": "./node_modules/.bin/cypress run --reporter cypress-image-snapshot/reporter",
+    "test:run": "./node_modules/.bin/cypress run --reporter cypress-image-snapshot/reporter --env failOnSnapshotDiff=false",
     "test:dashboard": "./node_modules/.bin/cypress run --record --key 9fa99101-885b-486d-937a-44306308c46d"
   },
   "dependencies": {
