@@ -2,21 +2,21 @@
 
 ## Features
 
-### Desired Features
+## Desired Features
 
-- Home Page
-- PDP
-- Checkout
-- Create Account Variant & Default
-- Different screen size 
-- independent repo from storefront
- 
+[  ] Home Page 
+[ ... ] Login / Create Account
+[  ] Create Account Variant & Default
+[ V ] Different screen size 
+[  ] independent repo from storefront
+## Great to Have Features (Divert to another ticket if POC is accepted)
 
-### Challenging Features (Divert to another ticket if POC is accepted)
+PDP
+Checkout
+## Challenging Features (Divert to another ticket if POC is accepted)
 
-- Handling of Login (Ask Brandon)
-- Handling of Test Account, Entries, CRUD (Ask Brandon)
-
+Handling of Login (Ask Brandon)
+Handling of Test Account, Entries, CRUD (Ask Brandon)
 
 
 ## Project setup

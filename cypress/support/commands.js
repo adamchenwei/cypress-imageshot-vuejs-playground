@@ -24,9 +24,15 @@
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
+
+//Image shot setup
 import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command';
 
-//options allows
+
+//Percy setup
+import '@percy/cypress';
+
+////Image shot setup: options allows
 addMatchImageSnapshotCommand({
   failureThreshold: 0.02, // threshold for entire image
   failureThresholdType: 'percent', // percent of image or number of pixels

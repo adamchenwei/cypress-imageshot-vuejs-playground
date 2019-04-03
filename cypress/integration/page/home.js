@@ -1,6 +1,8 @@
 describe('Chewy Home', function () {
   it('should have correct description', function () {
+
     cy.viewport('macbook-15');
+
     cy.visit('http://localhost:8081');
     cy.title().should(
       'equal',
@@ -10,15 +12,28 @@ describe('Chewy Home', function () {
     cy.get('[data-cy=main-text-with-link]')
       .matchImageSnapshot('correct description in desktop');
 
-      cy.get('[data-cy=something-else]')
-      .matchImageSnapshot('correct text');
+      //image shot play
+      // cy.get('[data-cy=something-else]')
+      // .matchImageSnapshot('correct text');
+
+      //percy play
+      cy.percySnapshot('macbook15 description');
+
   });
 
   it('should have correct display in mobile view', function () {
+
     cy.viewport('iphone-6');
+
     cy.visit('http://localhost:8081');
-    cy.get('[data-cy=main-text-with-link]')
-      .matchImageSnapshot('correct description in mobile');
+
+    //image shot play
+    // cy.get('[data-cy=main-text-with-link]')
+    //   .matchImageSnapshot('correct description in mobile');
+
+    //percy play
+    cy.percySnapshot('iphone6 description');
+
   });
 
 //   context('Querying', function () {
