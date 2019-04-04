@@ -1,5 +1,12 @@
 # cypress-imageshot-vuejs-playground
 
+## Challenges
+- False positives
+  - antialias related ignore is needed, otherwise, lots noise
+  - not able to ignore a section on the page is making it impossible to testing layout of page with dynamic section
+- server side device detection is not honored
+
+
 ## Features
 
 ## Desired Features
